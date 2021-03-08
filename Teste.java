@@ -24,26 +24,8 @@ public class Teste
        
        System.out.println("Nome: " + c1.getNome());
        
-       if (c1.getIdade() >= 18)
-       {
-           System.out.println("Você é maior de idade");
-       }
-       else 
-       {
-           System.out.println("Você é menor de idade");
-       }
-       
-       if (c1.getRenda() > 15000)
-       {
-           System.out.println("Você é RICOOOO");
-       }
-       else 
-       {
-           System.out.println("Você é igual eu. POBRE");
-       }
-       
-               
-                
+       c1.classificarIdade();
+       c1.classificarRenda();
     }
     
 }
