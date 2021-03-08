@@ -5,6 +5,34 @@ public class Cliente
     private int idade;
     private double renda;
 
+    String classificarIdade (){
+        String resposta;        
+        if (this.idade >= 18)
+       {
+           resposta = "Você é maior de idade";
+       }
+       else 
+       {
+           resposta = "Você é menor de idade";
+       }
+        return resposta;
+    }
+    
+    String classificarRenda (){
+        String resposta;
+        if (this.renda > 15000)
+       {
+           resposta = "Você é RICOOOO";
+       }
+       else 
+       {
+           resposta = "Você é igual eu. POBRE";
+       }
+        return resposta;
+    }
+    
+    
+    
     public String getNome() 
     {
         return nome;
